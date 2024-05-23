@@ -1,13 +1,13 @@
 ---
 import '@total-typescript/ts-reset';
 import Layout from '@layouts/Layout.astro';
-import Hero from '@components/Hero.astro';
+import Hero from '../components/Hero.astro';
 import Timeline from '@components/Timeline.vue';
 ---
 
 <Layout title="Mariusz Michalski - Personal Site">
   <main>
-    <Hero client:visible />
+    <Hero />
     <Timeline client:visible />
   </main>
 </Layout>
