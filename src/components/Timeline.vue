@@ -1,7 +1,5 @@
 <template>
-  <div class="timeline">
-    timeline
-  </div>
+  <div class="timeline">timeline</div>
 </template>
 
 <style scoped>
