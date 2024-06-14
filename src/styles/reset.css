@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   font: inherit;
-  line-height: calc(1em + 0.5rem); // make line breaks look nice for any font
+  line-height: calc(1em + 0.5rem); /* make line breaks look nice for any font */
 }
 
 /*
@@ -78,24 +78,26 @@ html {
 
 body {
   min-height: 100vh;
-  min-height: 100svh; // no jumping content (use small version of the viewport height)
+  min-height: 100svh; /* no jumping content (use small version of the viewport height) */
 }
 
-// 1 - stops img from overflowing
-// 2 - keep the aspect ratio of the image
-// 3 - for images NOT inside a text, get rid of alignment issue (similar to display: block)
-// 4 - for alt texts (if img didn't load)
-// 5 - for low-res image placeholder
-// 6 - for low-res image placeholder
-// 7 - for floating imgs
+/*
+  1 - stops img from overflowing
+  2 - keep the aspect ratio of the image
+  3 - for images NOT inside a text, get rid of alignment issue (similar to display: block)
+  4 - for alt texts (if img didn't load)
+  5 - for low-res image placeholder
+  6 - for low-res image placeholder
+  7 - for floating imgs
+ */
 img {
-  max-width: 100%; // [1]
-  height: auto; // [2]
-  vertical-align: middle; // [3]
-  font-style: italic; // [4]
-  background-repeat: no-repeat; // [5]
-  background-size: cover; // [6]
-  shape-margin: 1rem; // [7]
+  max-width: 100%; /* [1] */
+  height: auto; /* [2] */
+  vertical-align: middle; /* [3] */
+  font-style: italic; /* [4] */
+  background-repeat: no-repeat; /* [5] */
+  background-size: cover; /* [6] */
+  shape-margin: 1rem; /* [7] */
 }
 
 h1,
