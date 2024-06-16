@@ -1,9 +1,3 @@
 <template>
-  <div class="timeline">timeline</div>
+  <div class="timeline">// TODO: Timeline</div>
 </template>
-
-<style scoped>
-.timeline {
-  height: 100dvh;
-}
-</style>
