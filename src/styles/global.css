@@ -1,12 +1,10 @@
 html {
   font-family: system-ui, sans-serif;
-  background: #13151a;
   background-size: 224px;
 }
 
 body {
-  background-color: #070b0a;
-  background-color: #46574c;
+  background-color: #080c0b;
 }
 
 code {
