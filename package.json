@@ -14,7 +14,7 @@
     "@astrojs/check": "^0.7.0",
     "@astrojs/vue": "^4.5.0",
     "@fontsource/jetbrains-mono": "^5.0.20",
-    "astro": "^4.10.3",
+    "astro": "^4.11.3",
     "typescript": "^5.4.5",
     "vue": "^3.4.29"
   },
