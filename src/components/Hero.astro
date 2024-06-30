@@ -1,5 +1,6 @@
 ---
-
+import { Image } from 'astro:assets';
+import badgePlaceholder from '@assets/badge-placeholder.jpg';
 ---
 
 <script>
@@ -19,7 +20,14 @@
           I am a frontend developer.<br />I deliver snappy apps.
         </h2>
       </div>
-      <div>xxx</div>
+      <div>
+        <Image
+          src={badgePlaceholder}
+          width="580"
+          height="400"
+          alt="/assets/badge-placeholder.jpg"
+        />
+      </div>
     </div>
     <div>2</div>
     <!-- X years of experience -->
